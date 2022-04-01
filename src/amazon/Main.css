@@ -1,0 +1,17 @@
+.nav-container{
+    height:30px;
+ background-color:black;
+
+}
+
+.me-auto1{
+    margin:30px 30px 0px 50px;
+   color :white;
+}
+.col-container{
+    margin:0px 20px 0px 20px;
+    float :left;
+    width:300;
+    height:100;
+
+}
