@@ -48,9 +48,9 @@ export default function MainFunction  () {
   //   textAlign: 'center',
   //   color: theme.palette.text.secondary,
   // }));
-  // pooja changed this line
+  // master changed this line
   // and commented it
-   name :pooja 
+   name : master
 
     let history=useHistory()
 
