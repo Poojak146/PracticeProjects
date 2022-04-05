@@ -50,7 +50,10 @@ export default function MainFunction  () {
   // }));
   // pooja changed this line
   // and commented it
-  // name :pooja 
+  // name :pooja
+
+  // changing the  line 
+
 
     let history=useHistory()
 
@@ -61,8 +64,6 @@ export default function MainFunction  () {
        })
   
         }
-      
-    return(
         <>
   
   <Navbar bg="dark" style={{ backgroundColor:"rgb(32 48 55)"}}>
@@ -260,8 +261,10 @@ export default function MainFunction  () {
 
 
 </Container>
+</>
 
-
+  }
+  
 {/* <Grid container spacing={2} columns={16}>
   <Grid item xs={8}>
     <Item>xs=8</Item>
@@ -274,11 +277,9 @@ export default function MainFunction  () {
 
   
   
-</>
+
   
 
  
 
 
-    )
-  }
