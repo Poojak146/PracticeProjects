@@ -48,7 +48,10 @@ export default function MainFunction  () {
   //   textAlign: 'center',
   //   color: theme.palette.text.secondary,
   // }));
-  
+  // pooja changed this line
+  // and commented it
+   name :pooja 
+
     let history=useHistory()
 
     const HandleClick = (e) => {
