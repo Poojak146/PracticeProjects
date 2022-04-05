@@ -50,7 +50,7 @@ export default function MainFunction  () {
   // }));
   // pooja changed this line
   // and commented it
-   name :pooja 
+  // name :pooja 
 
     let history=useHistory()
 
