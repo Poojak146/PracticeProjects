@@ -18,10 +18,31 @@ import PreventingTransitionsExample from './router/Example3'
 import SidebarExample from './router/Example4'
 
 import MainFunction from './amazon/Main'
+import DescriptionPage from './amazon/DescriptionPage'
+
+
+import DisplayCard from './amazon/Card'
+import { Card } from 'react-bootstrap';
+import {BrowserRouter,Switch,Route,Link} from 'react-router-dom'
+
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <MainFunction/>
+    
+    <BrowserRouter>
+<Switch>
+    <Route exact path='/'>
+      <MainFunction/>
+    </Route>
+
+     <Route exact path='/DescriptionPage '>
+     <DescriptionPage /> 
+    </Route>
+    
+</Switch>
+   
+</BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
